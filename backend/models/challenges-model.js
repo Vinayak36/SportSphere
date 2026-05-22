@@ -35,3 +35,4 @@ const ChallengeSchema = new mongoose.Schema({
 });
 
 export default mongoose.model('Challenge', ChallengeSchema);
+
