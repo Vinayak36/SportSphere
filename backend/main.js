@@ -1,6 +1,6 @@
 import express, { urlencoded } from 'express';
 import cookieParser from 'cookie-parser'; // Add this import
-// import dotenv from 'dotenv'; // ask sir what is the purpse
+// import dotenv from 'dotenv'; 
 import connect_db from './config/db.js';
 
 // importing Routes
@@ -14,7 +14,7 @@ import authRoutes from './routes/authRoute.js';
 
 
 import cors from "cors";
-// dotenv.config(); // ask sir
+// dotenv.config(); 
 import { fileURLToPath } from "url";
 import path from 'path';
 

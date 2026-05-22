@@ -1,6 +1,8 @@
 import mongoose, { createConnection } from 'mongoose';
 
-const connection_link ="mongodb+srv://aroravinayak38:yUg3S94YhDLx1ylL@cluster0.o84bw.mongodb.net/"
+// const connection_link ="mongodb+srv://aroravinayak38:yUg3S94YhDLx1ylL@cluster0.o84bw.mongodb.net/"
+
+const connection_link ="mongodb+srv://aroravinayak38_db_user:kJOFLyIHd1jshQyF@cluster0.wbjck2n.mongodb.net/"
 
 const connect_db = async () => {
     try {
